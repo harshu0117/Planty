@@ -6,7 +6,7 @@ import io
 import os
 
 # Load the model
-model_path = os.path.abspath("1.keras")
+model_path = os.path.abspath("api/1.keras")
 st.write(f"Loading model from: {model_path}")
 if not os.path.exists(model_path):
     st.error(f"Model not found at {model_path}")
